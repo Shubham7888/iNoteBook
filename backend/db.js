@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const mongoURI="mongodb://127.0.0.1:27017/inotebook";
+const mongoURI="mongodb+srv://Shubham:W0fU4GJkm6WHtK6b@cluster0.m5zu6sx.mongodb.net/?retryWrites=true&w=majority";
 
 const connectToMongo =()=>{
     mongoose.connect(mongoURI);
